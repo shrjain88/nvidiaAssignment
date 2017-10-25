@@ -1,0 +1,122 @@
+.marginB0,
+.margin0,
+.marginTB0 {
+    margin-bottom: 0!important;
+}
+
+div {
+    display: block;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.form-md {
+    max-width: 700px;
+}
+
+form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.block {
+    display: block!important;
+}
+
+.padT20,
+.pad20,
+.padTB20 .padL20 {
+    padding-top: 20px!important;
+}
+
+h5,
+.h5 {
+    font-size: 14px;
+}
+
+body {
+    margin: 8px;
+    color: #333!important;
+    background: #fff!important;
+    font-size: 12px!important;
+    overflow: auto;
+}
+
+.btn-default {
+    color: #333;
+    background: linear-gradient(to bottom, #fefefe, #e5e5e5) #e5e5e5;
+    border-color: #ccc;
+}
+
+.panel-heading {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.panel-title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    line-height: 1;
+}
+
+.panel-subtitle {
+    margin: 0;
+    padding: 15px 0 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #676767;
+    line-height: 1;
+    display: inline-block;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.display-none {
+    display: none
+}
+
+input.parsley-error,
+textarea.parsley-error {
+    color: #ec2300 !important;
+    border: 1px solid #ec2300 !important;
+}
+
+ul.parsley-errors-list {
+    font-size: 11px;
+    list-style-type: none;
+    color: #ec2300 !important;
+    padding: 0
+}
+
+label.control-label {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    padding: 3px 10px 0;
+    margin: 0 0 4px;
+}
+
+li {
+    display: list-item;
+}
+
+.slick-header-column {
+    height: 30px !important;
+}
+
+#nvidia-fibnoacci-grid {
+    padding-left: 200px;
+}
+
+.slick-viewport {
+    border: #D3D3D3;
+    border-style: groove
+}

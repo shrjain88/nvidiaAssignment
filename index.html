@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <title>Fibonacci Series - Assignment</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="../nvidiaAssignment/node_modules/slickgrid/slick.grid.css" type="text/css" />
+    <link rel="stylesheet" href="../nvidiaAssignment/node_modules/slickgrid/css/smoothness/jquery-ui-1.11.3.custom.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+    <div id "continer">
+        <h1 class="block margin0 page-header">Nvidia - Assignment</h1>
+        <div id="nvidia-example-viewport" class="padT10 padB10 marginB20">
+            <div id="fibnoacci-series-pannel">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        Generate Fibonacci Series
+                    </div>
+                    <div class="panel-subtitle">
+                        This application generates the Fibnoacci Series for the number you will be providing in the input box.
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal form-md" role="form" id="nvidia-fibonacci-form" data-parsley-validate>
+                        <div class="form-group row">
+                            <label for="inputNumber" class="control-label col-sm-3">Number</label>
+                            <div class="col-sm-5">
+                                <input type="text" class="form-control input-sm" id="inputNumber" name="inputNumber" placeholder="Enter Number" required data-parsley-trigger="input" data-parsley-type="integer">
+                            </div>
+                            <button type="button" id="generate-fibnoacci-series" class="btn btn-sm btn-primary">Generate</button>
+                            <button type="button" id="reset-to-blank" class="btn btn-sm btn-default">Reset</button>
+                        </div>
+                        <div class="form-group row col-sm-10 " id="nvidia-fibnoacci-grid"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="../nvidiaAssignment/node_modules/slickgrid/lib/jquery-1.11.2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.0/parsley.min.js"></script>
+        <script src="../nvidiaAssignment/node_modules/slickgrid/lib/jquery.event.drag-2.2.js"></script>
+        <script src="../nvidiaAssignment/node_modules/slickgrid/slick.core.js"></script>
+        <script src="../nvidiaAssignment/node_modules/slickgrid/slick.grid.js"></script>
+        <script src="../nvidiaAssignment/node_modules/slickgrid/slick.dataview.js"></script>
+        <script type="text/javascript" src="fibonacci.js"></script>
+</body>
+
+</html>
